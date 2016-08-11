@@ -1,0 +1,424 @@
+Wed Aug 10 02:50:03 EDT 2016
+
+./mistral/mistral-base/:
+checks: yum -y install openstack-mistral-common && yum clean all
+./mistral/mistral-base/ ===> *successful* 
+./elasticsearch/:
+checks: yum -y install java-1.7.0-openjdk elasticsearch && yum clean all
+No package elasticsearch available.
+./elasticsearch/ ===> *failed* 
+./aodh/aodh-evaluator/:
+checks: yum -y install openstack-aodh-evaluator && yum clean all
+./aodh/aodh-evaluator/ ===> *successful* 
+./magnum/magnum-base/:
+checks: yum -y install openstack-magnum-common && yum clean all
+./magnum/magnum-base/ ===> *successful* 
+./nova/nova-compute-ironic/:
+checks: yum -y install openstack-nova-compute && yum clean all
+./nova/nova-compute-ironic/ ===> *successful* 
+./heka/:
+checks: yum -y install https://github.com/mozilla-services/heka/releases/download/v0.10.0/heka-0_10_0-linux-amd64.rpm && yum clean all 
+./nova/nova-compute-ironic/ ===> *successful* 
+./nova/nova-compute-ironic/ ===> *successful* 
+./heka/ ===> *failed* 
+./ironic/ironic-inspector/:
+checks: yum -y install openstack-ironic-inspector && yum clean all
+./ironic/ironic-inspector/ ===> *successful* 
+./watcher/watcher-applier/:
+./watcher/watcher-applier/ ===> *ignore* 
+./cinder/cinder-scheduler/:
+./cinder/cinder-scheduler/ ===> *ignore* 
+./ceilometer/ceilometer-collector/:
+checks: yum -y install openstack-ceilometer-collector && yum clean all
+./ceilometer/ceilometer-collector/ ===> *successful* 
+./rally/:
+checks: yum -y install openstack-rally && yum clean all 
+./rally/ ===> *successful* 
+./nova/nova-api/:
+checks: yum -y install openstack-nova-api && yum clean all
+./nova/nova-api/ ===> *successful* 
+./nova/nova-network/:
+checks: yum -y install openstack-nova-network bridge-utils initscripts && yum clean all 
+checks: yum -y install initscripts && yum clean all
+./nova/nova-network/ ===> *successful* 
+./mistral/mistral-engine/:
+checks: yum -y install openstack-mistral-engine && yum clean all
+./mistral/mistral-engine/ ===> *successful* 
+./haproxy/:
+checks: yum -y install haproxy && yum clean all
+./haproxy/ ===> *successful* 
+./cinder/cinder-api/:
+checks: yum -y install python-keystone && yum clean all
+./cinder/cinder-api/ ===> *successful* 
+./keystone/:
+checks: yum -y install openstack-keystone python-keystoneclient httpd mod_wsgi python-ldappool && yum clean all 
+checks: yum -y install httpd mod_wsgi python-ldappool && yum clean all 
+./keystone/ ===> *successful* 
+./neutron/neutron-l3-agent/:
+checks: yum -y install keepalived && yum clean all
+./neutron/neutron-l3-agent/ ===> *successful* 
+./murano/murano-base/:
+checks: yum -y install openstack-murano-common && yum clean all
+./murano/murano-base/ ===> *successful* 
+./trove/trove-conductor/:
+checks: yum -y install openstack-trove-conductor && yum clean all
+./trove/trove-conductor/ ===> *successful* 
+./nova/nova-novncproxy/:
+checks: yum -y install novnc openstack-nova-novncproxy && yum clean all
+./nova/nova-novncproxy/ ===> *successful* 
+./glance/glance-api/:
+./glance/glance-api/ ===> *ignore* 
+./cinder/cinder-volume/:
+checks: yum -y install scsi-target-utils && yum clean all
+./glance/glance-api/ ===> *ignore* 
+No package scsi-target-utils available.
+./cinder/cinder-volume/ ===> *failed* 
+./trove/trove-api/:
+checks: yum -y install openstack-trove-api && yum clean all
+./trove/trove-api/ ===> *successful* 
+./swift/swift-rsyncd/:
+checks: yum -y install rsync && yum clean all
+./swift/swift-rsyncd/ ===> *successful* 
+./senlin/senlin-engine/:
+./senlin/senlin-engine/ ===> *ignore* 
+./swift/swift-account/:
+checks: yum -y install openstack-swift-account && yum clean all
+./swift/swift-account/ ===> *successful* 
+./kolla-toolbox/:
+checks: yum -y install gcc gdisk git libffi-devel libxml2-devel libxslt-devel MariaDB-devel MariaDB-shared openssl-devel python-devel openssh-clients && yum clean all
+No package MariaDB-devel available.
+No package MariaDB-shared available.
+./kolla-toolbox/ ===> *failed* 
+./heat/heat-api-cfn/:
+checks: yum -y install openstack-heat-api-cfn && yum clean all
+./heat/heat-api-cfn/ ===> *successful* 
+./trove/trove-base/:
+checks: yum -y install openstack-trove-common && yum clean all
+./trove/trove-base/ ===> *successful* 
+./base/:
+checks: yum -y install sudo which python lvm2 scsi-target-utils iscsi-initiator-utils && yum clean all 
+No package scsi-target-utils available.
+checks: yum -y install curl sudo tar which lvm2 scsi-target-utils iscsi-initiator-utils && yum clean all
+No package scsi-target-utils available.
+./base/ ===> *failed* 
+./gnocchi/gnocchi-metricd/:
+checks: yum -y install openstack-gnocchi-metricd && yum clean all
+./gnocchi/gnocchi-metricd/ ===> *successful* 
+./designate/designate-sink/:
+checks: yum -y install openstack-designate-sink python-designateclient && yum clean all
+./designate/designate-sink/ ===> *successful* 
+./neutron/neutron-base/:
+checks: yum -y install openstack-neutron openstack-neutron-ml2 openvswitch openstack-neutron-lbaas python-openvswitch && yum clean all 
+checks: yum -y install conntrack-tools dnsmasq dnsmasq-utils ipset openvswitch python-openvswitch uuid && yum clean all
+./neutron/neutron-base/ ===> *successful* 
+./ceph/ceph-osd/:
+./ceph/ceph-osd/ ===> *ignore* 
+./ceph/ceph-rgw/:
+./ceph/ceph-rgw/ ===> *ignore* 
+./nova/nova-consoleauth/:
+checks: yum -y install openstack-nova-console && yum clean all
+./nova/nova-consoleauth/ ===> *successful* 
+./watcher/watcher-base/:
+./watcher/watcher-base/ ===> *ignore* 
+./aodh/aodh-notifier/:
+checks: yum -y install openstack-aodh-notifier && yum clean all
+./aodh/aodh-notifier/ ===> *successful* 
+./ironic/ironic-base/:
+checks: yum -y install openstack-ironic-common && yum clean all
+./ironic/ironic-base/ ===> *successful* 
+./ceilometer/ceilometer-compute/:
+checks: yum -y install openstack-ceilometer-compute python-ceilometerclient && yum clean all 
+checks: yum -y install libvirt-devel && yum clean all
+./ceilometer/ceilometer-compute/ ===> *successful* 
+./aodh/aodh-api/:
+checks: yum -y install openstack-aodh-api && yum clean all
+./aodh/aodh-api/ ===> *successful* 
+./ceilometer/ceilometer-base/:
+checks: yum -y install openstack-ceilometer-common python-tooz python-oslo-db && yum clean all
+./ceilometer/ceilometer-base/ ===> *successful* 
+./rabbitmq/:
+checks: yum -y install rabbitmq-server && yum clean all
+./ceilometer/ceilometer-base/ ===> *successful* 
+./ceilometer/ceilometer-base/ ===> *successful* 
+./rabbitmq/ ===> *failed* 
+./designate/designate-base/:
+checks: yum -y install openstack-designate-api openstack-designate-common python-tooz && yum clean all 
+./designate/designate-base/ ===> *successful* 
+./murano/murano-engine/:
+checks: yum -y install openstack-murano-engine && yum clean all
+./murano/murano-engine/ ===> *successful* 
+./manila/manila-share/:
+checks: yum -y install openstack-manila-share && yum clean all
+./manila/manila-share/ ===> *successful* 
+./openvswitch/openvswitch-db-server/:
+./openvswitch/openvswitch-db-server/ ===> *ignore* 
+./ceph/ceph-mon/:
+./ceph/ceph-mon/ ===> *ignore* 
+./kuryr/:
+./kuryr/ ===> *ignore* 
+./manila/manila-base/:
+checks: yum -y install openstack-manila openvswitch && yum clean all 
+checks: yum -y install openvswitch && yum clean all
+./manila/manila-base/ ===> *successful* 
+./designate/designate-mdns/:
+checks: yum -y install openstack-designate-mdns && yum clean all
+./designate/designate-mdns/ ===> *successful* 
+./ironic/ironic-conductor/:
+checks: yum -y install openstack-ironic-conductor qemu-img && yum clean all 
+checks: yum -y install qemu-img ipmitool && yum clean all
+./ironic/ironic-conductor/ ===> *successful* 
+./nova/nova-ssh/:
+checks: yum -y install openssh-server && yum clean all
+./nova/nova-ssh/ ===> *successful* 
+./trove/trove-taskmanager/:
+checks: yum -y install openstack-trove-taskmanager && yum clean all
+./trove/trove-taskmanager/ ===> *successful* 
+./multipathd/:
+checks: yum -y install device-mapper-multipath && yum clean all
+./multipathd/ ===> *successful* 
+./sahara/sahara-api/:
+checks: yum -y install openstack-sahara-api && yum clean all
+./sahara/sahara-api/ ===> *successful* 
+./nova/nova-compute/:
+checks: yum -y install openstack-nova-compute openvswitch sysfsutils ceph-common genisoimage iscsi-initiator-utils targetcli python-rtslib && yum clean all 
+No package ceph-common available.
+checks: yum -y install libvirt-devel openvswitch qemu-img sysfsutils ceph-common genisoimage iscsi-initiator-utils targetcli python-rtslib && yum clean all
+No package ceph-common available.
+./nova/nova-compute/ ===> *failed* 
+./magnum/magnum-api/:
+checks: yum -y install openstack-magnum-api && yum clean all
+./magnum/magnum-api/ ===> *successful* 
+./swift/swift-object/:
+checks: yum -y install openstack-swift-object && yum clean all
+./swift/swift-object/ ===> *successful* 
+./magnum/magnum-conductor/:
+checks: yum -y install openstack-magnum-conductor tar && yum clean all
+./magnum/magnum-conductor/ ===> *successful* 
+./ironic/ironic-api/:
+checks: yum -y install openstack-ironic-api && yum clean all
+./ironic/ironic-api/ ===> *successful* 
+./senlin/senlin-api/:
+./senlin/senlin-api/ ===> *ignore* 
+./glance/glance-registry/:
+./glance/glance-registry/ ===> *ignore* 
+./nova/nova-base/:
+checks: yum -y install openstack-nova-common python-keystoneclient python-cinderclient bridge-utils openvswitch && yum clean all 
+checks: yum -y install bridge-utils openvswitch && yum clean all
+./nova/nova-base/ ===> *successful* 
+./tempest/:
+checks: yum -y install openstack-tempest && yum clean all
+./tempest/ ===> *successful* 
+./designate/designate-poolmanager/:
+checks: yum -y install bind openstack-designate-pool-manager && yum clean all
+./designate/designate-poolmanager/ ===> *successful* 
+./neutron/neutron-openvswitch-agent/:
+checks: yum -y install openstack-neutron-openvswitch openvswitch && yum clean all
+./neutron/neutron-openvswitch-agent/ ===> *successful* 
+./openstack-base/:
+checks: yum -y install git iproute openssl && yum clean all 
+checks: yum -y install avahi-libs cups-libs fontconfig fontpackages-filesystem freetype initscripts libjpeg-turbo libpng libtomcrypt libtommath libX11 libX11-common libXau libxcb libXext libXi libxslt libyaml MySQL-python Percona-Server-shared-56 pyOpenSSL pyparsing python2-cffi python2-crypto python2-cryptography python2-debtcollector python2-eventlet python2-fasteners python2-funcsigs python2-futurist python2-greenlet python2-iso8601 python2-msgpack python2-oslo-concurrency python2-oslo-config python2-oslo-context python2-oslo-db python2-oslo-i18n python2-oslo-log python2-oslo-messaging python2-oslo-middleware python2-oslo-policy python2-oslo-serialization python2-oslo-service python2-oslo-utils python2-pika python2-pika_pool python2-positional python2-pyasn1 python2-PyMySQL python-alembic python-amqp python-anyjson python-barbicanclient python-beaker python-cachetools python-ceilometerclient python-cliff python-cmd2 python-congressclient python-contextlib2 python-dateutil python-decorator python-designateclient python-dogpile-cache python-editor python-enum34 python-extras python-fixtures python-futures python-glanceclient python-heatclient python-httplib2 python-idna python-inotify python-ipaddress python-ironicclient python-jsonpatch python-jsonpointer python-jsonschema python-keyring python-keystoneauth1 python-keystoneclient python-keystonemiddleware python-kombu python-linecache2 python-lxml python-magnumclient python-mako python-manilaclient python-memcached python-migrate python-mimeparse python-mistralclient python-monotonic python-muranoclient python-netaddr python-netifaces python-neutronclient python-novaclient python-openstackclient python-paste python-paste-deploy python-pbr python-pip python-ply python-posix_ipc python-prettytable python-pycparser python-PyMySQL python-repoze-lru python-requests python-retrying python-routes python-saharaclient python-simplejson python-sqlalchemy python-sqlparse python-stevedore python-swiftclient python-tempita python-testtools python-traceback2 python-troveclient python-unicodecsv python-unittest2 python-urllib3 python-warlock python-webob python-wrapt python-zaqarclient PyYAML systemd-sysv sysvinit-tools tcp_wrappers-libs && yum clean all 
+No package libtomcrypt available.
+No package libtommath available.
+No package Percona-Server-shared-56 available.
+No package python2-crypto available.
+No package python2-msgpack available.
+checks: yum -y install gcc gcc-c++ libffi-devel libxml2-devel libxslt-devel MariaDB-devel openldap-devel openssl-devel postgresql postgresql-devel python-devel sqlite-devel && yum clean all
+No package MariaDB-devel available.
+./openstack-base/ ===> *failed* 
+./mistral/mistral-api/:
+checks: yum -y install openstack-mistral-api && yum clean all
+./mistral/mistral-api/ ===> *successful* 
+./designate/designate-backend-bind9/:
+checks: yum -y install bind && yum clean all 
+./designate/designate-backend-bind9/ ===> *successful* 
+./murano/murano-api/:
+checks: yum -y install openstack-murano-api && yum clean all
+./murano/murano-api/ ===> *successful* 
+./neutron/neutron-dhcp-agent/:
+./neutron/neutron-dhcp-agent/ ===> *ignore* 
+./sahara/sahara-base/:
+checks: yum -y install openstack-sahara-common && yum clean all
+./sahara/sahara-base/ ===> *successful* 
+./ceilometer/ceilometer-central/:
+checks: yum -y install openstack-ceilometer-central && yum clean all
+./ceilometer/ceilometer-central/ ===> *successful* 
+./cinder/cinder-backup/:
+./cinder/cinder-backup/ ===> *ignore* 
+./aodh/aodh-base/:
+checks: yum -y install openstack-aodh-common && yum clean all
+./aodh/aodh-base/ ===> *successful* 
+./kibana/:
+checks: yum -y install kibana && yum clean all
+./aodh/aodh-base/ ===> *successful* 
+No package kibana available.
+./kibana/ ===> *failed* 
+./tgtd/:
+checks: yum -y install scsi-target-utils && yum clean all
+./kibana/ ===> *failed* 
+No package scsi-target-utils available.
+./tgtd/ ===> *failed* 
+./gnocchi/gnocchi-api/:
+checks: yum -y install openstack-gnocchi-api openstack-gnocchi-carbonara openstack-gnocchi-indexer-sqlalchemy && yum clean all
+./gnocchi/gnocchi-api/ ===> *successful* 
+./designate/designate-central/:
+checks: yum -y install openstack-designate-central && yum clean all
+./designate/designate-central/ ===> *successful* 
+./ceilometer/ceilometer-notification/:
+checks: yum -y install openstack-ceilometer-notification && yum clean all
+./ceilometer/ceilometer-notification/ ===> *successful* 
+./ceph/ceph-base/:
+checks: yum -y install ceph ceph-radosgw parted hdparm btrfs-progs && yum clean all
+No package ceph available.
+No package ceph-radosgw available.
+./ceph/ceph-base/ ===> *failed* 
+./openvswitch/openvswitch-base/:
+checks: yum -y install openvswitch && yum clean all
+./openvswitch/openvswitch-base/ ===> *successful* 
+./memcached/:
+checks: yum -y install memcached && yum clean all 
+./memcached/ ===> *successful* 
+./ironic/ironic-pxe/:
+checks: yum -y install tftp-server syslinux-tftpboot && yum clean all
+No package syslinux-tftpboot available.
+./ironic/ironic-pxe/ ===> *failed* 
+./mariadb/:
+checks: yum -y install MariaDB-Galera-server MariaDB-client rsync galera socat hostname percona-xtrabackup pv tar expect && yum clean all 
+No package MariaDB-Galera-server available.
+No package MariaDB-client available.
+No package percona-xtrabackup available.
+No package pv available.
+./mariadb/ ===> *failed* 
+./senlin/senlin-base/:
+./senlin/senlin-base/ ===> *ignore* 
+./ceilometer/ceilometer-api/:
+checks: yum -y install openstack-ceilometer-api && yum clean all
+./ceilometer/ceilometer-api/ ===> *successful* 
+./swift/swift-proxy-server/:
+checks: yum -y install openstack-swift-proxy && yum clean all
+./swift/swift-proxy-server/ ===> *successful* 
+./nova/nova-libvirt/:
+checks: yum -y install libvirt-daemon libguestfs qemu-system-x86 libvirt-daemon-driver-nwfilter libvirt-daemon-config-nwfilter libvirt-daemon-driver-lxc ceph-common && yum clean all 
+No package qemu-system-x86 available.
+No package ceph-common available.
+./nova/nova-libvirt/ ===> *failed* 
+./gnocchi/gnocchi-base/:
+checks: yum -y install openstack-gnocchi-common && yum clean all
+./gnocchi/gnocchi-base/ ===> *successful* 
+./zaqar/:
+checks: yum -y install openstack-zaqar && yum clean all
+./gnocchi/gnocchi-base/ ===> *successful* 
+./gnocchi/gnocchi-base/ ===> *successful* 
+./gnocchi/gnocchi-base/ ===> *successful* 
+./gnocchi/gnocchi-base/ ===> *successful* 
+./gnocchi/gnocchi-base/ ===> *successful* 
+./gnocchi/gnocchi-base/ ===> *successful* 
+./gnocchi/gnocchi-base/ ===> *successful* 
+./gnocchi/gnocchi-base/ ===> *successful* 
+./gnocchi/gnocchi-base/ ===> *successful* 
+./gnocchi/gnocchi-base/ ===> *successful* 
+./gnocchi/gnocchi-base/ ===> *successful* 
+./gnocchi/gnocchi-base/ ===> *successful* 
+./zaqar/ ===> *failed* 
+./trove/trove-guestagent/:
+checks: yum -y install openstack-trove-guestagent && yum clean all
+./trove/trove-guestagent/ ===> *successful* 
+./aodh/aodh-listener/:
+checks: yum -y install openstack-aodh-listener && yum clean all
+./aodh/aodh-listener/ ===> *successful* 
+./manila/manila-api/:
+./manila/manila-api/ ===> *ignore* 
+./openvswitch/openvswitch-vswitchd/:
+./openvswitch/openvswitch-vswitchd/ ===> *ignore* 
+./iscsid/:
+checks: yum -y install iscsi-initiator-utils targetcli python-rtslib && yum clean all
+./iscsid/ ===> *successful* 
+./neutron/neutron-linuxbridge-agent/:
+checks: yum -y install ebtables openstack-neutron-linuxbridge && yum clean all 
+checks: yum -y install ebtables bridge-utils && yum clean all
+./neutron/neutron-linuxbridge-agent/ ===> *successful* 
+./glance/glance-base/:
+checks: yum -y install openstack-glance python-rbd python-rados && yum clean all 
+No package python-rbd available.
+No package python-rados available.
+checks: yum -y install python-rbd python-rados && yum clean all 
+./neutron/neutron-linuxbridge-agent/ ===> *successful* 
+No package python-rbd available.
+No package python-rados available.
+./glance/glance-base/ ===> *failed* 
+./aodh/aodh-expirer/:
+checks: yum -y install openstack-aodh-expirer && yum clean all
+./aodh/aodh-expirer/ ===> *successful* 
+./heat/heat-api/:
+./heat/heat-api/ ===> *ignore* 
+./heat/heat-engine/:
+./heat/heat-engine/ ===> *ignore* 
+./cron/:
+./cron/ ===> *ignore* 
+./sahara/sahara-engine/:
+checks: yum -y install openstack-sahara-engine && yum clean all
+./sahara/sahara-engine/ ===> *successful* 
+./nova/nova-scheduler/:
+checks: yum -y install openstack-nova-scheduler && yum clean all
+./nova/nova-scheduler/ ===> *successful* 
+./swift/swift-container/:
+checks: yum -y install openstack-swift-container && yum clean all
+./swift/swift-container/ ===> *successful* 
+./designate/designate-api/:
+checks: yum -y install openstack-designate-api && yum clean all
+./designate/designate-api/ ===> *successful* 
+./watcher/watcher-api/:
+./watcher/watcher-api/ ===> *ignore* 
+./neutron/neutron-server/:
+checks: yum -y install openstack-neutron-lbaas && yum clean all
+./neutron/neutron-server/ ===> *successful* 
+./neutron/neutron-lbaas-agent/:
+checks: yum -y install haproxy && yum clean all 
+checks: yum -y install openstack-neutron-lbaas && yum clean all
+./neutron/neutron-lbaas-agent/ ===> *successful* 
+./cinder/cinder-rpcbind/:
+checks: yum -y install nfs-utils nfs-utils-lib && yum clean all
+No package nfs-utils-lib available.
+./cinder/cinder-rpcbind/ ===> *failed* 
+./gnocchi/gnocchi-statsd/:
+checks: yum -y install openstack-gnocchi-statsd && yum clean all
+./gnocchi/gnocchi-statsd/ ===> *successful* 
+./horizon/:
+checks: yum -y install openstack-dashboard httpd mod_wsgi gettext && yum clean all 
+checks: yum -y install httpd mod_wsgi gettext && yum clean all 
+./horizon/ ===> *successful* 
+./keepalived/:
+checks: yum -y install hostname keepalived socat && yum clean all
+./keepalived/ ===> *successful* 
+./nova/nova-conductor/:
+checks: yum -y install openstack-nova-conductor && yum clean all
+./nova/nova-conductor/ ===> *successful* 
+./mistral/mistral-executor/:
+checks: yum -y install openstack-mistral-executor && yum clean all
+./mistral/mistral-executor/ ===> *successful* 
+./neutron/neutron-metadata-agent/:
+./neutron/neutron-metadata-agent/ ===> *ignore* 
+./mongodb/:
+checks: yum -y install mongodb mongodb-server && yum clean all
+./mongodb/ ===> *successful* 
+./swift/swift-base/:
+checks: yum -y install openstack-swift && yum clean all 
+checks: yum -y install liberasurecode-devel && yum clean all
+./swift/swift-base/ ===> *successful* 
+./watcher/watcher-engine/:
+./watcher/watcher-engine/ ===> *ignore* 
+./manila/manila-scheduler/:
+./manila/manila-scheduler/ ===> *ignore* 
+./heat/heat-base/:
+./heat/heat-base/ ===> *ignore* 
+./cinder/cinder-base/:
+checks: yum -y install openstack-cinder python-automaton lvm2 ceph-common && yum clean all 
+No package ceph-common available.
+checks: yum -y install lvm2 qemu-img ceph-common && yum clean all
+No package ceph-common available.
+./cinder/cinder-base/ ===> *failed* 
+./dind/:
+./dind/ ===> *ignore* 
+./nova/nova-spicehtml5proxy/:
+checks: yum -y install openstack-nova-spicehtml5proxy spice-html5 && yum clean all
+No package spice-html5 available.
+./nova/nova-spicehtml5proxy/ ===> *failed* 
