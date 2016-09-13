@@ -1,0 +1,137 @@
+Fri Sep  2 02:33:04 EDT 2016
+
+
+yum install -y chrony
+:
+yum install -y chrony
+ ===> *successful* 
+
+yum install -y python-openstackclient
+:
+yum install -y python-openstackclient
+ ===> *successful* 
+
+yum install -y openstack-selinux
+:
+yum install -y openstack-selinux
+ ===> *successful* 
+
+yum install -y mariadb mariadb-server python2-PyMySQL
+:
+yum install -y mariadb mariadb-server python2-PyMySQL
+ ===> *successful* 
+
+yum install -y mongodb-server mongodb
+:
+yum install -y mongodb-server mongodb
+ ===> *successful* 
+
+yum install -y rabbitmq-server
+:
+yum install -y rabbitmq-server
+ ===> *successful* 
+
+yum install -y memcached python-memcached
+:
+yum install -y memcached python-memcached
+ ===> *successful* 
+
+yum install -y openstack-keystone httpd mod_wsg
+:
+yum install -y openstack-keystone httpd mod_wsg
+ ===> *successful* 
+
+yum install -y openstack-glance
+:
+yum install -y openstack-glance
+ ===> *successful* 
+
+yum install -y openstack-nova-api openstack-nova-conductor openstack-nova-console openstack-nova-novncproxy openstack-nova-scheduler
+:
+yum install -y openstack-nova-api openstack-nova-conductor openstack-nova-console openstack-nova-novncproxy openstack-nova-scheduler
+ ===> *successful* 
+
+yum install -y openstack-nova-compute
+:
+yum install -y openstack-nova-compute
+ ===> *successful* 
+
+yum install -y openstack-neutron openstack-neutron-ml2 openstack-neutron-linuxbridge ebtables
+:
+yum install -y openstack-neutron openstack-neutron-ml2 openstack-neutron-linuxbridge ebtables
+ ===> *successful* 
+
+yum install -y openstack-neutron-linuxbridge ebtables ipset
+:
+yum install -y openstack-neutron-linuxbridge ebtables ipset
+ ===> *successful* 
+
+yum install -y openstack-dashboard
+:
+yum install -y openstack-dashboard
+ ===> *successful* 
+
+yum install -y openstack-cinder
+:
+yum install -y openstack-cinder
+ ===> *successful* 
+
+yum install -y lvm2
+:
+yum install -y lvm2
+ ===> *successful* 
+
+yum install -y openstack-cinder targetcli
+:
+yum install -y openstack-cinder targetcli
+ ===> *successful* 
+
+yum install -y openstack-manila python-manilaclient
+:
+yum install -y openstack-manila python-manilaclient
+ ===> *successful* 
+
+yum install -y openstack-manila-share python2-PyMySQL
+:
+yum install -y openstack-manila-share python2-PyMySQL
+ ===> *successful* 
+
+yum install -y lvm2 nfs-utils nfs4-acl-tools portmap
+:
+yum install -y lvm2 nfs-utils nfs4-acl-tools portmap
+ ===> *successful* 
+
+yum install -y openstack-neutron openstack-neutron-linuxbridge ebtables
+:
+yum install -y openstack-neutron openstack-neutron-linuxbridge ebtables
+ ===> *successful* 
+
+yum install -y openstack-swift-proxy python-swiftclient python-keystoneclient python-keystonemiddleware memcached
+:
+yum install -y openstack-swift-proxy python-swiftclient python-keystoneclient python-keystonemiddleware memcached
+ ===> *successful* 
+
+yum install -y xfsprogs rsync
+:
+yum install -y xfsprogs rsync
+ ===> *successful* 
+
+yum install -y openstack-swift-account openstack-swift-container openstack-swift-object
+:
+yum install -y openstack-swift-account openstack-swift-container openstack-swift-object
+ ===> *successful* 
+
+yum install -y openstack-heat-api openstack-heat-api-cfn openstack-heat-engine
+:
+yum install -y openstack-heat-api openstack-heat-api-cfn openstack-heat-engine
+ ===> *successful* 
+
+yum install -y openstack-ceilometer-api openstack-ceilometer-collector openstack-ceilometer-notification openstack-ceilometer-central python-ceilometerclient
+:
+yum install -y openstack-ceilometer-api openstack-ceilometer-collector openstack-ceilometer-notification openstack-ceilometer-central python-ceilometerclient
+ ===> *successful* 
+
+yum install -y openstack-trove python-troveclient
+:
+yum install -y openstack-trove python-troveclient
+ ===> *successful* 
