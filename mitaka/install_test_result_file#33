@@ -1,0 +1,179 @@
+Fri Sep 23 20:44:17 EDT 2016
+
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package NetworkManager.ppc64le 1:1.0.6-30.el7_2 will be updated
+---> Package NetworkManager.ppc64le 1:1.0.6-31.el7_2 will be an update
+---> Package NetworkManager-libnm.ppc64le 1:1.0.6-30.el7_2 will be updated
+---> Package NetworkManager-libnm.ppc64le 1:1.0.6-31.el7_2 will be an update
+---> Package NetworkManager-team.ppc64le 1:1.0.6-30.el7_2 will be updated
+---> Package NetworkManager-team.ppc64le 1:1.0.6-31.el7_2 will be an update
+---> Package NetworkManager-tui.ppc64le 1:1.0.6-30.el7_2 will be updated
+---> Package NetworkManager-tui.ppc64le 1:1.0.6-31.el7_2 will be an update
+---> Package bash.ppc64le 0:4.2.46-19.el7 will be updated
+---> Package bash.ppc64le 0:4.2.46-20.el7_2 will be an update
+---> Package dbus.ppc64le 1:1.6.12-13.el7 will be updated
+---> Package dbus.ppc64le 1:1.6.12-14.el7_2 will be an update
+---> Package dbus-libs.ppc64le 1:1.6.12-13.el7 will be updated
+---> Package dbus-libs.ppc64le 1:1.6.12-14.el7_2 will be an update
+---> Package dnsmasq.ppc64le 0:2.66-14.el7_1 will be updated
+---> Package dnsmasq.ppc64le 0:2.66-14.el7_2.1 will be an update
+---> Package glibc.ppc64le 0:2.17-106.el7_2.6 will be updated
+---> Package glibc.ppc64le 0:2.17-106.el7_2.8 will be an update
+---> Package glibc-common.ppc64le 0:2.17-106.el7_2.6 will be updated
+---> Package glibc-common.ppc64le 0:2.17-106.el7_2.8 will be an update
+---> Package initscripts.ppc64le 0:9.49.30-1.el7_2.2 will be updated
+---> Package initscripts.ppc64le 0:9.49.30-1.el7_2.3 will be an update
+---> Package kernel.ppc64le 0:3.10.0-327.36.1.el7 will be installed
+---> Package kernel-bootwrapper.ppc64le 0:3.10.0-327.22.2.el7 will be updated
+---> Package kernel-bootwrapper.ppc64le 0:3.10.0-327.36.1.el7 will be an update
+---> Package kernel-tools.ppc64le 0:3.10.0-327.22.2.el7 will be updated
+---> Package kernel-tools.ppc64le 0:3.10.0-327.36.1.el7 will be an update
+---> Package kernel-tools-libs.ppc64le 0:3.10.0-327.22.2.el7 will be updated
+---> Package kernel-tools-libs.ppc64le 0:3.10.0-327.36.1.el7 will be an update
+---> Package kmod.ppc64le 0:20-5.el7 will be updated
+---> Package kmod.ppc64le 0:20-8.el7_2 will be an update
+---> Package kmod-libs.ppc64le 0:20-5.el7 will be updated
+---> Package kmod-libs.ppc64le 0:20-8.el7_2 will be an update
+---> Package kpartx.ppc64le 0:0.4.9-85.el7_2.5 will be updated
+---> Package kpartx.ppc64le 0:0.4.9-85.el7_2.6 will be an update
+---> Package libblkid.ppc64le 0:2.23.2-26.el7_2.2 will be updated
+---> Package libblkid.ppc64le 0:2.23.2-26.el7_2.3 will be an update
+---> Package libgudev1.ppc64le 0:219-19.el7_2.11 will be updated
+---> Package libgudev1.ppc64le 0:219-19.el7_2.13 will be an update
+---> Package libmount.ppc64le 0:2.23.2-26.el7_2.2 will be updated
+---> Package libmount.ppc64le 0:2.23.2-26.el7_2.3 will be an update
+---> Package libteam.ppc64le 0:1.17-6.el7_2 will be updated
+---> Package libteam.ppc64le 0:1.17-7.el7_2 will be an update
+---> Package libtiff.ppc64le 0:4.0.3-14.el7 will be updated
+---> Package libtiff.ppc64le 0:4.0.3-25.el7_2 will be an update
+---> Package libuuid.ppc64le 0:2.23.2-26.el7_2.2 will be updated
+---> Package libuuid.ppc64le 0:2.23.2-26.el7_2.3 will be an update
+---> Package mariadb-libs.ppc64le 1:5.5.47-1.el7_2 will be updated
+---> Package mariadb-libs.ppc64le 1:10.1.12-4.ael7b will be an update
+--> Processing Dependency: mariadb-common(ppc-64) = 1:10.1.12-4.ael7b for package: 1:mariadb-libs-10.1.12-4.ael7b.ppc64le
+---> Package python.ppc64le 0:2.7.5-34.el7 will be updated
+---> Package python.ppc64le 0:2.7.5-39.el7_2 will be an update
+---> Package python-cheetah.ppc64le 0:2.4.4-4.el7 will be updated
+---> Package python-cheetah.ppc64le 0:2.4.4-5.ael7b will be an update
+---> Package python-libs.ppc64le 0:2.7.5-34.el7 will be updated
+---> Package python-libs.ppc64le 0:2.7.5-39.el7_2 will be an update
+---> Package python-perf.ppc64le 0:3.10.0-327.22.2.el7 will be updated
+---> Package python-perf.ppc64le 0:3.10.0-327.36.1.el7 will be an update
+---> Package python-pyasn1.noarch 0:0.1.6-2.el7 will be obsoleted
+---> Package python-pygments.noarch 0:1.4-9.el7 will be updated
+---> Package python-pygments.noarch 0:2.0.2-4.el7 will be an update
+---> Package python-requests.noarch 0:2.6.0-1.el7_1 will be updated
+---> Package python-requests.noarch 0:2.10.0-1.el7 will be an update
+---> Package python-setuptools.noarch 0:0.9.8-4.el7 will be obsoleted
+---> Package python-urllib3.noarch 0:1.10.2-2.el7_1 will be updated
+---> Package python-urllib3.noarch 0:1.15.1-2.el7 will be an update
+--> Processing Dependency: python-pysocks for package: python-urllib3-1.15.1-2.el7.noarch
+---> Package python2-pyasn1.noarch 0:0.1.9-6.el7.1 will be obsoleting
+---> Package python2-setuptools.noarch 0:22.0.5-1.el7 will be obsoleting
+---> Package selinux-policy.noarch 0:3.13.1-60.el7_2.7 will be updated
+---> Package selinux-policy.noarch 0:3.13.1-60.el7_2.9 will be an update
+---> Package selinux-policy-targeted.noarch 0:3.13.1-60.el7_2.7 will be updated
+---> Package selinux-policy-targeted.noarch 0:3.13.1-60.el7_2.9 will be an update
+---> Package systemd.ppc64le 0:219-19.el7_2.11 will be updated
+---> Package systemd.ppc64le 0:219-19.el7_2.13 will be an update
+---> Package systemd-libs.ppc64le 0:219-19.el7_2.11 will be updated
+---> Package systemd-libs.ppc64le 0:219-19.el7_2.13 will be an update
+---> Package systemd-sysv.ppc64le 0:219-19.el7_2.11 will be updated
+---> Package systemd-sysv.ppc64le 0:219-19.el7_2.13 will be an update
+---> Package teamd.ppc64le 0:1.17-6.el7_2 will be updated
+---> Package teamd.ppc64le 0:1.17-7.el7_2 will be an update
+---> Package tuned.noarch 0:2.5.1-4.el7_2.3 will be updated
+---> Package tuned.noarch 0:2.5.1-4.el7_2.6 will be an update
+---> Package tzdata.noarch 0:2016e-1.el7 will be updated
+---> Package tzdata.noarch 0:2016f-1.el7 will be an update
+---> Package util-linux.ppc64le 0:2.23.2-26.el7_2.2 will be updated
+---> Package util-linux.ppc64le 0:2.23.2-26.el7_2.3 will be an update
+--> Running transaction check
+---> Package mariadb-common.ppc64le 1:10.1.12-4.ael7b will be installed
+--> Processing Dependency: /etc/my.cnf for package: 1:mariadb-common-10.1.12-4.ael7b.ppc64le
+---> Package python2-pysocks.noarch 0:1.5.6-3.el7 will be installed
+--> Running transaction check
+---> Package mariadb-config.ppc64le 1:10.1.12-4.ael7b will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                  Arch     Version              Repository         Size
+================================================================================
+Installing:
+ kernel                   ppc64le  3.10.0-327.36.1.el7  updates            33 M
+ python2-pyasn1           noarch   0.1.9-6.el7.1        openstack-mitaka  101 k
+     replacing  python-pyasn1.noarch 0.1.6-2.el7
+ python2-setuptools       noarch   22.0.5-1.el7         openstack-mitaka  485 k
+     replacing  python-setuptools.noarch 0.9.8-4.el7
+Updating:
+ NetworkManager           ppc64le  1:1.0.6-31.el7_2     updates           2.1 M
+ NetworkManager-libnm     ppc64le  1:1.0.6-31.el7_2     updates           501 k
+ NetworkManager-team      ppc64le  1:1.0.6-31.el7_2     updates           132 k
+ NetworkManager-tui       ppc64le  1:1.0.6-31.el7_2     updates           214 k
+ bash                     ppc64le  4.2.46-20.el7_2      updates           1.0 M
+ dbus                     ppc64le  1:1.6.12-14.el7_2    updates           313 k
+ dbus-libs                ppc64le  1:1.6.12-14.el7_2    updates           154 k
+ dnsmasq                  ppc64le  2.66-14.el7_2.1      updates           229 k
+ glibc                    ppc64le  2.17-106.el7_2.8     updates           4.8 M
+ glibc-common             ppc64le  2.17-106.el7_2.8     updates            12 M
+ initscripts              ppc64le  9.49.30-1.el7_2.3    updates           430 k
+ kernel-bootwrapper       ppc64le  3.10.0-327.36.1.el7  updates           2.5 M
+ kernel-tools             ppc64le  3.10.0-327.36.1.el7  updates           2.4 M
+ kernel-tools-libs        ppc64le  3.10.0-327.36.1.el7  updates           2.3 M
+ kmod                     ppc64le  20-8.el7_2           updates           115 k
+ kmod-libs                ppc64le  20-8.el7_2           updates            47 k
+ kpartx                   ppc64le  0.4.9-85.el7_2.6     updates            60 k
+ libblkid                 ppc64le  2.23.2-26.el7_2.3    updates           169 k
+ libgudev1                ppc64le  219-19.el7_2.13      updates            66 k
+ libmount                 ppc64le  2.23.2-26.el7_2.3    updates           168 k
+ libteam                  ppc64le  1.17-7.el7_2         updates            46 k
+ libtiff                  ppc64le  4.0.3-25.el7_2       updates           171 k
+ libuuid                  ppc64le  2.23.2-26.el7_2.3    updates            74 k
+ mariadb-libs             ppc64le  1:10.1.12-4.ael7b    local             641 k
+ python                   ppc64le  2.7.5-39.el7_2       updates            89 k
+ python-cheetah           ppc64le  2.4.4-5.ael7b        local             341 k
+ python-libs              ppc64le  2.7.5-39.el7_2       updates           5.8 M
+ python-perf              ppc64le  3.10.0-327.36.1.el7  updates           2.4 M
+ python-pygments          noarch   2.0.2-4.el7          openstack-mitaka  1.6 M
+ python-requests          noarch   2.10.0-1.el7         openstack-mitaka  103 k
+ python-urllib3           noarch   1.15.1-2.el7         openstack-mitaka  123 k
+ selinux-policy           noarch   3.13.1-60.el7_2.9    updates           377 k
+ selinux-policy-targeted  noarch   3.13.1-60.el7_2.9    updates           3.9 M
+ systemd                  ppc64le  219-19.el7_2.13      updates           5.0 M
+ systemd-libs             ppc64le  219-19.el7_2.13      updates           374 k
+ systemd-sysv             ppc64le  219-19.el7_2.13      updates            53 k
+ teamd                    ppc64le  1.17-7.el7_2         updates           111 k
+ tuned                    noarch   2.5.1-4.el7_2.6      updates           194 k
+ tzdata                   noarch   2016f-1.el7          updates           439 k
+ util-linux               ppc64le  2.23.2-26.el7_2.3    updates           1.9 M
+Installing for dependencies:
+ mariadb-common           ppc64le  1:10.1.12-4.ael7b    local              60 k
+ mariadb-config           ppc64le  1:10.1.12-4.ael7b    local              22 k
+ python2-pysocks          noarch   1.5.6-3.el7          openstack-mitaka   20 k
+
+Transaction Summary
+================================================================================
+Install   3 Packages (+3 Dependent packages)
+Upgrade  40 Packages
+
+Total download size: 86 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+http://mirror.centos.org/altarch/7/updates/ppc64le/Packages/selinux-policy-3.13.1-60.el7_2.9.noarch.rpm: [Errno -1] Package does not match intended download. Suggestion: run yum --enablerepo=updates clean metadata
+Trying other mirror.
+http://mirror.centos.org/altarch/7/updates/ppc64le/Packages/selinux-policy-targeted-3.13.1-60.el7_2.9.noarch.rpm: [Errno -1] Package does not match intended download. Suggestion: run yum --enablerepo=updates clean metadata
+Trying other mirror.
+http://mirror.centos.org/altarch/7/updates/ppc64le/Packages/tuned-2.5.1-4.el7_2.6.noarch.rpm: [Errno -1] Package does not match intended download. Suggestion: run yum --enablerepo=updates clean metadata
+Trying other mirror.
+
+
+Error downloading packages:
+  selinux-policy-3.13.1-60.el7_2.9.noarch: [Errno 256] No more mirrors to try.
+  tuned-2.5.1-4.el7_2.6.noarch: [Errno 256] No more mirrors to try.
+  selinux-policy-targeted-3.13.1-60.el7_2.9.noarch: [Errno 256] No more mirrors to try.
+
